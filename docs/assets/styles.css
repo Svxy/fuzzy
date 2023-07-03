@@ -1,0 +1,62 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #4b4b4b;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+header {
+  background-color: #272727;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 32px;
+  margin: 0;
+}
+
+main {
+  flex-grow: 1;
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 0 20px;
+}
+
+#obituary {
+  margin-bottom: 40px;
+}
+
+#obituary h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.photo-container {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.photo-container img {
+  max-width: 300px;
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+p {
+  margin-bottom: 15px;
+  line-height: 1.5;
+}
+
+footer {
+  background-color: #272727;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  flex-shrink: 0;
+  margin-top: 50px;
+}
