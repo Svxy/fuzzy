@@ -28,6 +28,6 @@ document.addEventListener("DOMContentLoaded", () => {
           image.style.transform = "scaleX(1)";
         }
       }});
-      alert("You found an easter egg! Fuzzy Lumpkins is always in our hearts.");
+      alert("Fuzzy loves you, and we love Fuzzy. Fuzzy Lumpkins is always in our hearts.");
     });
   });  
